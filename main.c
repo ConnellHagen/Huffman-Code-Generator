@@ -59,14 +59,8 @@ int main(int argc, char** argv)
 	// Insert end of file marker
 	heap_insert(0, NULL, 0);   
 
-	// Print the heap 
-    heap_print();
-
 	// build the buffman tree
     build_huffman_tree();
-
-	// Print the huffman tree 
-    print_huffman_tree(huffman_tree, 0);
 
 	// initialize and generate code based on the huffman tree
     init_code();
