@@ -15,4 +15,4 @@ First, prepare a text file to use the algorithm on. The file must only use the s
 
 Second, using the `huffman` binary found in the "Releases" section, run `huffman` with your file as a command-line argument. ex: `./huffman some_directory/text_file.txt`. The binary can also be created by compiling the `.c` files yourself with `make`.
 
-The terminal will then print out a list of every character that is in the file you used, along with the corresponsing Huffman code for it.
+The terminal will then print out a list of every character that is in the file you used, along with the corresponding Huffman code for it.
